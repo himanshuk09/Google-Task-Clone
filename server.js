@@ -13,7 +13,7 @@ app.use(cors());
 // });
 
 mong
-  .connect("mongodb://localhost:27017/GoogleTaskCloneDB")
+  .connect("mongodb://0.0.0.0:27017/GoogleTaskCloneDB")
   .then((result) => {
     //true
     console.log("Database Connected");
